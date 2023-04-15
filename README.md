@@ -8,6 +8,9 @@
   <br />
 </div>
 
+> **Warning**
+> Pessimism is no where to production ready. We are constantly working on our core services such as dispute mechanism, batch submitter and onchain tx engine. 
+
 ## What is Pessimsim?
 
 ## Documentation
