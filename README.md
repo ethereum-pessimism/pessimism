@@ -3,7 +3,7 @@
   <br />
   <a href="https://optimism.io"><img alt="Optimism" src="https://raw.githubusercontent.com/ethereum-pessimism/media/f7147b15246ae829c8e628e8e851347235a00193/assets/svg/Blue%20Text.svg" width=600></a>
   <br />
-  <h3><a href="">Pessimism</a> is a scalable and secure L2 pessimistic rollup chain. Pessimism is an active member of the Optimism OPstack and is contributing to the Optimism Superchain.</h3>
+  <h3><a href="">Pessimism</a> 🔵✨ is a scalable and secure L2 pessimistic rollup chain. Pessimism is an active member of the Optimism OPstack and is contributing to the Optimism Superchain.</h3>
   <br />
 </div>
 
