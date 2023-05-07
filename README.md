@@ -12,9 +12,16 @@
 
 ## What is Pessimsim?
 
+Pessimism is a newly created Layer-2 chain built on top of the Optimism Stack. Pessimism provides so called pessimistic rollups for ethereum transaction. 
+
 ## Documentation
 
 ## Community
+
+## Quick Setup
+
+```bash
+```
 
 ## Contributing
 
