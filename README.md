@@ -18,10 +18,42 @@ Pessimism is a newly created Layer-2 chain built on top of the Optimism Stack. P
 
 ## Community
 
-## Quick Setup
+## Development Setup
+
+1. These packages are all required either to compile the software or to run it. We need libusb-1.0 because geth requires it to check for hardware wallets.
 
 ```bash
+sudo apt install -y git make wget gcc pkg-config libusb-1.0 jq
 ```
+
+2. Install the node version manager which is used to dynamicall install node versions based on your needs.
+
+```bash
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh | bash
+export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+3. Install node version 14.x
+
+```bash
+nvm install 14
+node -v
+```
+
+4. Install yarn 
+
+```bash
+sudo npm install -g yarn 
+```
+
+5. Install golang programming-language used to compile l2geth and the pessimism node
+
+```bash
+sudo apt install golang-go
+```
+
 
 ## Contributing
 
