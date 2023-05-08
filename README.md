@@ -54,14 +54,29 @@ sudo npm install -g yarn
 sudo apt install golang-go
 ```
 
+6. Setting up the Data Transport Layer
+
+```bash
+git clone https://github.com/ethereum-pessimism/pessimism
+cd pessimism
+yarn
+yarn build
+cd ~/pessimism/packages/data-transport-layer
+cp .env.example .env
+```
+
+7. Compiling the Layer-1 geth client
+
+```bash
+cd ~/pessimism/l2geth
+make geth
+```
 
 ## Contributing
 
 Read through [CONTRIBUTING.md](./CONTRIBUTING.md) for a general overview of our contribution process.
 Use the [Developer Quick Start](./CONTRIBUTING.md#development-quick-start) to get your development environment set up to start working on the Pessimism Monorepo.
 Then check out our list of [good first issues]() to find something fun to work on!
-
-## Security Policy and Vulnerability Reporting
 
 ### Overview
 
